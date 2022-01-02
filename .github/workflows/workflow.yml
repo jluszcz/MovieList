@@ -13,7 +13,7 @@ jobs:
       - name: Install jq
         run: sudo apt-get install -y jq
       - name: Check Out Code
-      - uses: actions/checkout@main
+        uses: actions/checkout@main
       - name: Minify json
         run: jq --compact-output . movielist.json > movielist.min.json
       - name: Upload to S3
