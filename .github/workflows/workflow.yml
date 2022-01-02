@@ -10,12 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Deploy
+      - name: Install jq
+        run: sudo apt-get install -y jq
+      - name: Check Out Code
+      - uses: actions/checkout@main
+      - name: Minify json
+        run: jq --compact-output . movielist.json > movielist.min.json
+      - name: Upload to S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_BUCKET: ${{ secrets.AWS_BUCKET }}
-        run: aws s3 cp movielist.json s3://${AWS_BUCKET}/
+        run: aws s3 cp movielist.min.json s3://${AWS_BUCKET}/movielist.json
