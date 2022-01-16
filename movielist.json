@@ -2,6 +2,13 @@
     "title": "The Movie List",
     "lists": [
         {
+            "title": "2022",
+            "hidden": true,
+            "list": [
+                "Hotel Transylvania: Transformania"
+            ]
+        },
+        {
             "title": "2021",
             "list": [
                 "Dune",
