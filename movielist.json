@@ -1,4 +1,3 @@
-
 {
     "title": "The Movie List",
     "lists": [
@@ -9,7 +8,10 @@
                 "The Unbearable Weight of Massive Talent",
                 "Everything Everywhere All at Once",
                 "The Batman",
-                "Turning Red",
+                {
+                    "item": "Turning Red",
+                    "tooltip": "Great/Good Divide"
+                },
                 "Doctor Strange in the Multiverse of Madness",
                 "Chip 'n Dale: Rescue Rangers",
                 "RRR",
@@ -19,12 +21,21 @@
                 "The Northman",
                 "Lightyear",
                 "Deep Water",
-                "Death on the Nile",
+                {
+                    "item": "Death on the Nile",
+                    "tooltip": "Good/OK Divide"
+                },
                 "Uncharted",
                 "Sonic the Hedgehog 2",
-                "Spiderhead",
+                {
+                    "item": "Spiderhead",
+                    "tooltip": "OK/Bad Divide"
+                },
                 "Hotel Transylvania: Transformania",
-                "Jurassic World: Dominion"
+                {
+                    "item": "Jurassic World: Dominion",
+                    "tooltip": "Garbage"
+                }
             ]
         },
         {
@@ -35,7 +46,10 @@
                 "Licorice Pizza",
                 "Bo Burnham: Inside",
                 "The Suicide Squad",
-                "CODA",
+                {
+                    "item": "CODA",
+                    "tooltip": "Great/Good Divide"
+                },
                 "Pig",
                 "The Last Duel",
                 "Black Widow",
@@ -56,7 +70,10 @@
                 "West Side Story",
                 "The Lost Daughter",
                 "Worth",
-                "Gunpowder Milkshake",
+                {
+                    "item": "Gunpowder Milkshake",
+                    "tooltip": "Good/OK Divide"
+                },
                 "Eternals",
                 "Fear Street: 1994",
                 "Being the Ricardos",
@@ -88,7 +105,10 @@
                 "Mortal Kombat",
                 "Fear Street: 1666",
                 "The Witcher: Nightmare of the Wolf",
-                "The Tomorrow War",
+                {
+                    "item": "The Tomorrow War",
+                    "tooltip": "OK/Bad Divide"
+                },
                 "Vacation Friends",
                 "Werewolves Within",
                 "Red Notice",
@@ -102,7 +122,10 @@
                 "The Little Things",
                 "Shadow in the Cloud",
                 "Jolt",
-                "Don't Look Up"
+                {
+                    "item": "Don't Look Up",
+                    "tooltip": "Garbage"
+                }
             ]
         },
         {
