@@ -22,12 +22,13 @@
                 "The Lost City",
                 "The Northman",
                 "Lightyear",
-                "Deep Water",
                 {
-                    "item": "Death on the Nile",
+                    "item": "Deep Water",
                     "tooltip": "Good/OK Divide"
                 },
+                "Death on the Nile",
                 "Uncharted",
+                "The Sea Beast",
                 "Sonic the Hedgehog 2",
                 {
                     "item": "Spiderhead",
