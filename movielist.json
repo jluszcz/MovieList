@@ -643,6 +643,7 @@
         },
         {
             "title": "2012",
+            "hidden": true,
             "list": [
                 "The Avengers",
                 "Looper",
@@ -692,6 +693,7 @@
         },
         {
             "title": "2011",
+            "hidden": true,
             "list": [
                 "Mission Impossible: Ghost Protocol",
                 "Drive",
@@ -727,6 +729,7 @@
         },
         {
             "title": "2010",
+            "hidden": true,
             "list": [
                 "The Social Network",
                 "How to Train Your Dragon",
@@ -755,6 +758,7 @@
         },
         {
             "title": "2009",
+            "hidden": true,
             "list": [
                 "Inglourious Basterds",
                 "Star Trek",
