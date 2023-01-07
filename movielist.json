@@ -2,11 +2,19 @@
     "title": "The Movie List",
     "lists": [
         {
+            "title": "2023",
+            "hidden": true,
+            "list": [
+                "The Pale Blue Eye"
+            ]
+        },
+        {
             "title": "2022",
             "list": [
                 "Top Gun: Maverick",
                 "The Fabelmans",
                 "Tár",
+                "Women Talking",
                 "The Banshees of Inisherin",
                 "Marcel the Shell with Shoes On",
                 "Avatar: The Way of Water",
