@@ -774,5 +774,15 @@
                 "In the Loop"
             ]
         }
+    ],
+    "footerLinks": [
+        {
+            "url": "https://letterboxd.com/jluszcz",
+            "icon": "film"
+        },
+        {
+            "url": "https://github.com/jluszcz/MovieList",
+            "icon": "github"
+        }
     ]
 }
