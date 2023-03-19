@@ -7,13 +7,19 @@
                 "Creed III",
                 "M3GAN",
                 "Scream VI",
-                "Ant-Man and the Wasp: Quantumania",
+                {
+                    "item": "Ant-Man and the Wasp: Quantumania",
+                    "tooltip": "Good/OK Divide"
+                },
                 "Knock at the Cabin",
                 "The Pale Blue Eye",
                 "Plane",
                 "Boston Strangler",
                 "Operation Fortune: Ruse de Guerre",
-                "Shazam! Fury of the Gods",
+                {
+                    "item": "Shazam! Fury of the Gods",
+                    "tooltip": "OK/Bad Divide"
+                },
                 "65",
                 "Cocaine Bear"
             ]
