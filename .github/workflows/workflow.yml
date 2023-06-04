@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  minify-and-upload-to-s3:
     runs-on: ubuntu-latest
 
     steps:
