@@ -1,7 +1,0 @@
-language: minimal
-before_install:
-  - sudo apt-get -y install jq
-script:
-  - jq . movielist.json > /dev/null
-notifications:
-    email: false
