@@ -2,6 +2,12 @@
     "title": "The Movie List",
     "lists": [
         {
+            "title": "2024",
+            "hidden": true,
+            "list": [
+            ]
+        },
+        {
             "title": "2023",
             "list": [
                 "Mission: Impossible - Dead Reckoning Part One",
