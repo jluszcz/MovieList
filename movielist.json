@@ -110,6 +110,10 @@
                 "Renfield",
                 "Cocaine Bear",
                 {
+                    "item": "The Color Purple",
+                    "tooltip": "I just don't like musicals"
+                },
+                {
                     "item": "Rebel Moon: Part One - A Child of Fire",
                     "tooltip": "Garbage"
                 },
