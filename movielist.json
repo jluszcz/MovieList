@@ -3,7 +3,6 @@
     "lists": [
         {
             "title": "2024",
-            "hidden": true,
             "list": [
                 "Dune: Part Two",
                 "The Promised Land",
@@ -739,6 +738,7 @@
         },
         {
             "title": "2013",
+            "hidden": true,
             "list": [
                 "Her",
                 "Gravity",
