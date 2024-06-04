@@ -6,7 +6,10 @@
             "list": [
                 "Challengers",
                 "Dune: Part Two",
-                "Hit Man",
+                {
+                    "item": "Hit Man",
+                    "tooltip": "Great/Good Divide"
+                },
                 "Civil War",
                 "I Saw the TV Glow",
                 "Furiosa: A Mad Max Saga",
@@ -16,7 +19,10 @@
                 "The Beekeeper",
                 "Love Lies Bleeding",
                 "Kingdom of the Planet of the Apes",
-                "The Fall Guy",
+                {
+                    "item": "The Fall Guy",
+                    "tooltip": "Good/OK Divide"
+                },
                 "Drive-Away Dolls",
                 "Problemista",
                 "Immaculate",
@@ -34,7 +40,10 @@
                 "La Chimera",
                 "Madame Web",
                 "Ghostbusters: Frozen Empire",
-                "Godzilla x Kong: The New Empire",
+                {
+                    "item": "Godzilla x Kong: The New Empire",
+                    "tooltip": "OK/Bad Divide"
+                },
                 "Unfrosted",
                 "Lisa Frankenstein",
                 "Argylle",
