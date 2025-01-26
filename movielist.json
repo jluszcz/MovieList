@@ -3,6 +3,13 @@
     "title": "The Movie List",
     "lists": [
         {
+            "title": "2025",
+            "hidden": true,
+            "list": [
+                "Presence"
+            ]
+        },
+        {
             "title": "2024",
             "list": [
                 "Challengers",
