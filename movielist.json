@@ -12,9 +12,16 @@
                 "Den of Thieves 2: Pantera",
                 "Wolf Man",
                 "One of Them Days",
-                "Love Me",
+                {
+                    "item": "Love Me",
+                    "tooltip": "Good/Bad Divide"
+                },
                 "Flight Risk",
-                "Love Hurts"
+                "Star Trek: Section 31",
+                {
+                    "item": "Love Hurts",
+                    "tooltip": "Possibly the worst movie I've ever seen"
+                }
             ]
         },
         {
