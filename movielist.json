@@ -9,7 +9,11 @@
                 "Companion",
                 "Presence",
                 "Bring Them Down",
-                "Heart Eyes",
+                {
+                    "item": "Heart Eyes",
+                    "tooltip": "Good/OK Divide"
+                },
+                "The Gorge",
                 "Captain America: Brave New World",
                 "Den of Thieves 2: Pantera",
                 "Wolf Man",
@@ -17,7 +21,7 @@
                 "Love Me",
                 {
                     "item": "Dog Man",
-                    "tooltip": "Good/Bad Divide"
+                    "tooltip": "OK/Bad Divide"
                 },
                 "Flight Risk",
                 "Detective Chinatown 1900",
