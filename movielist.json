@@ -4,7 +4,6 @@
     "lists": [
         {
             "title": "2025",
-            "hidden": true,
             "list": [
                 "Companion",
                 "The Monkey",
@@ -839,6 +838,7 @@
         },
         {
             "title": "2014",
+            "hidden": true,
             "list": [
                 "Guardians of the Galaxy",
                 "Birdman or (The Unexpected Virtue of Ignorance)",
