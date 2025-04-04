@@ -1097,5 +1097,22 @@
             "url": "https://github.com/jluszcz/MovieList",
             "icon": "github"
         }
-    ]
+    ],
+    "footer": {
+        "imports": [
+            "<script src=\"https://kit.fontawesome.com/aa30dc648a.js\" crossorigin=\"anonymous\"></script>"
+        ],
+        "links": [
+            {
+                "url": "https://letterboxd.com/jluszcz",
+                "title": "Letterboxd",
+                "icon": "fa-brands fa-letterboxd"
+            },
+            {
+                "url": "https://github.com/jluszcz/MovieList",
+                "title": "GitHub",
+                "icon": "fa-brands fa-github"
+            }
+        ]
+    }
 }
