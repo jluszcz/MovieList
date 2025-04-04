@@ -1088,16 +1088,6 @@
             ]
         }
     ],
-    "footerLinks": [
-        {
-            "url": "https://letterboxd.com/jluszcz",
-            "icon": "film"
-        },
-        {
-            "url": "https://github.com/jluszcz/MovieList",
-            "icon": "github"
-        }
-    ],
     "footer": {
         "imports": [
             "<script src=\"https://kit.fontawesome.com/aa30dc648a.js\" crossorigin=\"anonymous\"></script>"
