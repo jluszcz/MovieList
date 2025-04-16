@@ -18,16 +18,20 @@ jobs:
     steps:
       - name: Check Out Code
         uses: actions/checkout@v4
+
       - name: Install jq
         run: sudo apt-get install -y jq
+
       - name: Minify json
         run: jq --compact-output '.lists |= map(select(.hidden != true))' movielist.json > movielist.min.json
+
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722
         with:
           role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/github.movielist
           role-session-name: github-upload
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+
       - name: Upload to S3
         env:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
