@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+
     paths:
       - movielist.json
 
@@ -18,9 +19,6 @@ jobs:
     steps:
       - name: Check Out Code
         uses: actions/checkout@v4
-
-      - name: Install jq
-        run: sudo apt-get install -y jq
 
       - name: Minify json
         run: jq --compact-output '.lists |= map(select(.hidden != true))' movielist.json > movielist.min.json
