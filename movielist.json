@@ -5,7 +5,10 @@
         {
             "title": "2025",
             "list": [
-                "Sinners",
+                {
+                    "item": "Sinners",
+                    "tooltip": "Great/Good Divide"
+                },
                 "Black Bag",
                 "Thunderbolts*",
                 "Companion",
