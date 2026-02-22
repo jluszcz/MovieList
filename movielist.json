@@ -7,17 +7,26 @@
             "hidden": true,
             "list": [
                 "28 Years Later: The Bone Temple",
-                "Nirvanna the Band the Show the Movie",
+                {
+                    "item": "Nirvanna the Band the Show the Movie",
+                    "tooltip": "Great/Good Divide"
+                },
                 "Pillion",
                 "The Rip",
                 "Send Help",
                 "Good Luck, Have Fun, Don't Die",
                 "The Plague",
                 "Dead Man's Wire",
-                "All You Need is Kill",
+                {
+                    "item": "All You Need is Kill",
+                    "tooltip": "Good/OK Divide"
+                },
                 "The Moment",
                 "We Bury the Dead",
-                "How to Make a Killing",
+                {
+                    "item": "How to Make a Killing",
+                    "tooltip": "OK/Bad Divide"
+                },
                 "Wuthering Heights",
                 "Mercy"
             ]
