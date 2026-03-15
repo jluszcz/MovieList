@@ -4,7 +4,6 @@
     "lists": [
         {
             "title": "2026",
-            "hidden": true,
             "list": [
                 "28 Years Later: The Bone Temple",
                 "Nirvanna the Band the Show the Movie",
@@ -968,6 +967,7 @@
         },
         {
             "title": "2015",
+            "hidden": true,
             "list": [
                 "Steve Jobs",
                 "Mad Max: Fury Road",
