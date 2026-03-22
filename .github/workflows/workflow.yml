@@ -34,5 +34,5 @@ jobs:
       - name: Upload to S3
         env:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          AWS_BUCKET: list-of-lists-${{ secrets.AWS_ACCOUNT_ID }}-${{ AWS_DEFAULT_REGION }}-an
+          AWS_BUCKET: list-of-lists-${{ secrets.AWS_ACCOUNT_ID }}-${{ secrets.AWS_DEFAULT_REGION }}-an
         run: aws s3 cp movielist.min.json s3://${AWS_BUCKET}/moviel.ist.json
