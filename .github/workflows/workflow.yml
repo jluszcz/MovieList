@@ -19,13 +19,13 @@ jobs:
 
     steps:
       - name: Check Out Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Minify json
         run: jq --compact-output '.lists |= map(select(.hidden != true))' movielist.json > movielist.min.json
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722
+        uses: aws-actions/configure-aws-credentials@v6.0.0
         with:
           role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/movielist.github-update
           role-session-name: github-upload
@@ -34,5 +34,5 @@ jobs:
       - name: Upload to S3
         env:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          AWS_BUCKET: ${{ secrets.AWS_BUCKET }}
-        run: aws s3 cp movielist.min.json s3://${AWS_BUCKET}/movielist.json
+          AWS_BUCKET: list-of-lists-${{ secrets.AWS_ACCOUNT_ID }}-${{ AWS_DEFAULT_REGION }}-an
+        run: aws s3 cp movielist.min.json s3://${AWS_BUCKET}/moviel.ist.json
