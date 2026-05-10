@@ -4,7 +4,6 @@
     "lists": [
         {
             "title": "2026",
-            "hidden": true,
             "list": [
                 "28 Years Later: The Bone Temple",
                 "Nirvanna the Band the Show the Movie",
@@ -12,22 +11,36 @@
                     "item": "Hoppers",
                     "tooltip": "Great/Good Divide"
                 },
+                "Project Hail Mary",
+                "The Drama",
                 "Pillion",
+                "Mother Mary",
                 "Crime 101",
                 "The Rip",
                 "Send Help",
                 "Good Luck, Have Fun, Don't Die",
+                "The AI Doc: Or How I Became an Apocaloptimist",
                 "The Plague",
                 "Dead Man's Wire",
+                "Mike & Nick & Nick & Alice",
+                "I Swear",
                 "All You Need is Kill",
+                "GOAT",
                 {
-                    "item": "GOAT",
+                    "item": "Over Your Dead Body",
                     "tooltip": "Good/OK Divide"
                 },
                 "Pizza Movie",
                 "The Moment",
+                "The Devil Wears Prada 2",
+                "Ready or Not 2: Here I Come",
+                "Fuze",
                 "War Machine",
+                "Normal",
                 "We Bury the Dead",
+                "Forbidden Fruits",
+                "Apex",
+                "They Will Kill You",
                 "Scream 7",
                 {
                     "item": "How to Make a Killing",
@@ -35,7 +48,8 @@
                 },
                 "Wuthering Heights",
                 "Mercy",
-                "The Bride!"
+                "The Bride!",
+                "The Super Mario Galaxy Movie"
             ]
         },
         {
@@ -969,6 +983,7 @@
         },
         {
             "title": "2015",
+            "hidden": true,
             "list": [
                 "Steve Jobs",
                 "Mad Max: Fury Road",
