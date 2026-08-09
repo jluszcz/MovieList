@@ -1,0 +1,11 @@
+name: Auto-Merge
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  auto-merge:
+    uses: jluszcz/github-utils/.github/workflows/auto-merge.yml@v2
+    secrets: inherit
