@@ -19,7 +19,7 @@ jobs:
       id-token: write
       contents: read
 
-    uses: jluszcz/github-utils/.github/workflows/minify-and-upload.yml@v1
+    uses: jluszcz/github-utils/.github/workflows/minify-and-upload.yml@v2
 
     with:
       aws-region: us-east-2
