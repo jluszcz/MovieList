@@ -93,6 +93,10 @@
                 "The Bride!",
                 "In the Blink of an Eye",
                 "The Super Mario Galaxy Movie",
+                {
+                    "item": "Digger",
+                    "tooltip": "Walked Out"
+                },
                 "In the Grey"
             ]
         },
